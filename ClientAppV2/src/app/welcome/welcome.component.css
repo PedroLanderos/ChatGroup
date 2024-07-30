@@ -1,0 +1,28 @@
+.container {
+  max-width: 100%;
+  height: 100vh;
+  margin: auto;
+  background-color: #000000; /* Fondo oscuro */
+  background-image: linear-gradient(180deg, #000000 25%, #333333 100%); /* Degradado oscuro */
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.text-light {
+  color: #FFFFFF; /* Color de texto blanco */
+}
+
+.btn-primary {
+  background-color: #1E1E1E; /* Fondo del botón oscuro */
+  border-color: #333333; /* Borde del botón oscuro */
+  color: #FFFFFF; /* Color del texto del botón blanco */
+}
+
+.btn-primary:hover {
+  background-color: #333333; /* Fondo del botón al pasar el ratón */
+  border-color: #444444; /* Borde del botón al pasar el ratón */
+}

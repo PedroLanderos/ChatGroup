@@ -1,0 +1,49 @@
+/* Fondo general de la página */
+.container {
+  background-color: #f0f0f0; /* Gris claro para el fondo fuera del formulario */
+  height: 100vh; /* Asegura que el fondo cubra toda la altura de la ventana */
+  padding: 20px; /* Espacio alrededor del contenido */
+}
+
+/* Fondo de la tarjeta con desvanecido negro */
+.cardbody-color {
+  background-color: #000000; /* Color negro sólido */
+  background-image: linear-gradient(180deg, #000000 25%, #1a1a1a 100%); /* Desvanecido negro */
+  border-radius: 15px; /* Bordes redondeados para la tarjeta */
+  padding: 20px; /* Añade un poco de espacio alrededor del contenido */
+}
+
+/* Estilos del formulario */
+.card-body {
+  border-radius: 15px; /* Bordes redondeados para el contenido del formulario */
+  padding: 20px; /* Espacio interior del formulario */
+}
+
+/* Campos de entrada */
+.form-control {
+  border-radius: 10px; /* Bordes redondeados para los campos de entrada */
+  border: 1px solid #ddd; /* Borde de color gris claro */
+  padding: 10px; /* Espacio interior en los campos de entrada */
+}
+
+/* Botón de color oscuro con texto blanco */
+.btn-color {
+  background-color: #333333; /* Color gris oscuro */
+  color: #ffffff; /* Texto blanco */
+  border-radius: 10px; /* Bordes redondeados para el botón */
+  padding: 10px 20px; /* Espacio interior del botón */
+  border: none; /* Elimina el borde por defecto */
+}
+
+/* Imagen de perfil */
+.profile-image-pic {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  border-radius: 50%; /* Hace la imagen de perfil redonda */
+}
+
+/* Estilos generales */
+a {
+  text-decoration: none;
+}
